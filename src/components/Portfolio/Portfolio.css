@@ -1,0 +1,15 @@
+.overlay{
+    background-color: #1abc9ce6;
+    cursor: pointer;
+    opacity: 0;
+    transition: .5s opacity;
+}
+.overlay:hover{
+    opacity: 1 !important;
+}
+.bg-overlay{
+    z-index: 9999;
+}
+.bg-overlay img{
+    width: 600px !important;
+}

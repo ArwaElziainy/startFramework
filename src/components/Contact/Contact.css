@@ -1,0 +1,20 @@
+.star div{
+    color: rgb(44, 62, 80);
+}
+.line{
+    background-color: rgb(44, 62, 80);
+}
+button{
+    background-color: #1abc9c !important;
+}
+input:focus{
+    box-shadow: none !important;
+}
+label{
+    color: #1abc9c;
+    margin-bottom: 7px;
+    transition: .6s top;
+}
+label.top{
+    top: 40px !important;
+}
